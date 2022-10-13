@@ -72,6 +72,8 @@
 6 */
 
 // ex7
-var joinarr=[1,2,3,4,5,6]
-var temp=joinarr.join("\n")
-console.log(temp)
+// var joinarr=[1,2,3,4,5,6]
+// var temp=joinarr.join(",")
+// console.log(temp)
+
+// // 1,2,3,4,5,6
