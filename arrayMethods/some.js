@@ -21,7 +21,7 @@ const ages = [32, 33, 16, 40];
 
 // console.log(result)
 
-const result=ages.some(age=> age > 100)
+const result=ages.some(age=> age > 34)
 
 console.log(result)
 
