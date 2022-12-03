@@ -2,7 +2,7 @@
 // The Fibonacci sequence formula deals with the Fibonacci sequence, finding its missing terms. The Fibonacci formula is given as, Fn = Fn-1 + Fn-2, where n > 1.
 
 function fibob(n){
-    let first=0, second=1,next=0
+    let first=1, second=1,next
     for(let i=0;i<n;i++){
         console.log(first)
         next=first+second
@@ -12,7 +12,7 @@ function fibob(n){
 }
 }
 
-const N=5
+const N=8
 fibob(N)
 
 
