@@ -1,0 +1,1 @@
+** Short note of JAVASCRIPT Obeject **
