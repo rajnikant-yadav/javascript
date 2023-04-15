@@ -1,5 +1,6 @@
 **Short note of JAVASCRIPT Object**
-<span style="color:red">Main topic in JS Objects</span>
+<p style="color: red;">Main topic in JS Objects</p>
+
 
 1. How to create JS Objects
 2. How to access js Objects
