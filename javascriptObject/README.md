@@ -1,5 +1,5 @@
 <!-- **Short note of JAVASCRIPT Object** -->
-# Short note of JAVASCRIPT Object
+# Short note on JAVASCRIPT Object
 
 
 1. How to create JS Objects
@@ -21,3 +21,8 @@
 18. ES6 Class
 19. Default constructor
 
+```diff
+- This is a red colored line
++ This is a green colored line
+@@ This is a purple colored line @@
+```
