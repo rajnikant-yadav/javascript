@@ -1,5 +1,5 @@
 **Short note of JAVASCRIPT Object**
-<p style="color: red;">Main topic in JS Objects</p>
+<p style="font-weight: bold; color: red;">Main topic in JS Objects</p>
 
 
 1. How to create JS Objects
