@@ -1,6 +1,8 @@
 <!-- **Short note of JAVASCRIPT Object** -->
 # Short note on JAVASCRIPT Object
-
+```diff
+- Main topic in JS Objects
+```
 
 1. How to create JS Objects
 2. How to access js Objects
@@ -22,6 +24,4 @@
 19. Default constructor
 
 
-- This is a red colored line
-+ This is a green colored line
-@@ This is a purple colored line @@
+
