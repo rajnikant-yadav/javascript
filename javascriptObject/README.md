@@ -1,7 +1,7 @@
 <!-- **Short note of JAVASCRIPT Object** -->
 # Short note on JAVASCRIPT Object
 ```diff
-- **Main topic in JS Objects**
+- Main topic in JS Objects
 ```
 
 1. How to create JS Objects
