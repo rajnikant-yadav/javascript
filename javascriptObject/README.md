@@ -1,5 +1,5 @@
-**Short note of JAVASCRIPT Object**
-- Main topics in JS Objects
+<!-- **Short note of JAVASCRIPT Object** -->
+# Short note of JAVASCRIPT Object
 
 
 1. How to create JS Objects
