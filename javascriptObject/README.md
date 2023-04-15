@@ -1,1 +1,1 @@
-** Short note of JAVASCRIPT Obeject **
+**Short note of JAVASCRIPT Object**
