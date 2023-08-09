@@ -3,7 +3,6 @@
 ```diff
 - Main topic in JS Objects
 ```
-
 1. How to create JS Objects
 2. How to access js Objects
 3. How to delete properties of js Objects
