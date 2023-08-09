@@ -1,5 +1,4 @@
 # Short note of JAVASCRIPT Object
-## Short note on JAVASCRIPT Object
 ```diff
 - Main topic in JS Objects
 ```
