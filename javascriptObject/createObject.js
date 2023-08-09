@@ -1,3 +1,4 @@
+// Object 
 var fees = { };		// Declaring empty object Using Object Literal
 fees['a'] = 10;	// initializing 
 fees['b'] = 20;
