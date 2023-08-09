@@ -1,4 +1,4 @@
-<!-- **Short note of JAVASCRIPT Object** -->
+# Short note of JAVASCRIPT Object
 ## Short note on JAVASCRIPT Object
 ```diff
 - Main topic in JS Objects
@@ -23,33 +23,3 @@
 19. Default constructor
 
 
-
-## Creating Objects in JavaScript
-
-In JavaScript, there are multiple ways to create objects. Here are some common methods:
-
-### 1. Object Literal:
-
-```javascript
-var fees = {};
-fees['a'] = 10;
-fees['b'] = 20;
-fees['c'] = 30;
-
-var obj = { a: 10, b: 20, c: 30 };
-
-const person = {
-    firstName: "Rajnikant",
-    lastName: "Yadav",
-    age: 26,
-    greet: function() {
-        console.log(`Hello, my name is ${this.firstName} ${this.lastName}`);
-    }
-};
-
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.age);
-person.greet();
-person.age = 27;
-console.log(person.age);
