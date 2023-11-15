@@ -10,9 +10,11 @@ var playersArr = [
 ];
 
 
-var leftFootArr = playersArr.filter(function(player){
-    return player.footedness === 'left';
-});
+// var leftFootArr = playersArr.filter(function(player){
+//     return player.footedness === 'left';
+// });
+var leftFootArr = playersArr.filter(player=> player.footedness === 'left'
+);
 console.log(leftFootArr);
 /*This will log: 
 [{name: 'Jason', footedness: 'left', position: 'forward'},

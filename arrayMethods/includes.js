@@ -1,5 +1,5 @@
 // includes( )
-// This method checks if an array includes the element that passes the condition, returning true or false as appropriate.
+// This method checks if an array includes the element that passes the condition, returning true or false as appropriate. We can also use includes with string as well
 
 const array1 = [1, 2, 3];
 
@@ -13,3 +13,5 @@ console.log(pets.includes('cat'));
 
 console.log(pets.includes('at'));
 // expected output: false
+console.log(pets[0].includes('at'));
+// expected output: true

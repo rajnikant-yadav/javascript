@@ -4,10 +4,16 @@ console.log(fruits.sort());
 
 const points = [40, 100,100, 1, 5, 25, 10];
 // points.sort(function(a, b){return a - b});
+
+// points.sort((a, b)=>{
+//   console.log(a,b)
+//   return a - b}
+//   );
+// console.log(points)
 // console.log(points)
 
 
-// [ 1, 5, 10, 25, 40, 100 ]
+// [ 1, 5, 10, 25, 40, 100, 100 ]
 
 
 points.sort(function(a, b){return b - a});

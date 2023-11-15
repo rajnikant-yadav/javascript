@@ -10,7 +10,7 @@
 const ages = [32, 33, 16, 40];
 
 // const result=ages.every(function checkAge(age) {
-//     return age > 18;
+//     return age > 18; // The iteration will stop when this condition is met
 //   })
 
 // console.log(result)

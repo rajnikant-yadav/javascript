@@ -11,6 +11,12 @@ var names = ["Rahul", "Sonam", "Sumit", "Raj", "Rohan"];
 // var Newnames=names.slice(-7,-1)
 // console.log(Newnames)
 // output [ 'Rahul', 'Sonam', 'Sumit', 'Raj' ]
+// In this example:
+
+// The slice method is used on the names array.
+// The starting index is calculated as -7, which effectively means starting from the beginning of the array (because it wraps around).
+// The ending index is calculated as -1, which means it goes up to, but does not include, the element at index -1 (which is equivalent to the last element in the array).
+// Therefore, the output is an array containing elements from index 0 to 3 in the original names array: ['Rahul', 'Sonam', 'Sumit', 'Raj'].
 
 // var Newnames=names.slice(-3,-1)
 // console.log(Newnames)

@@ -1,6 +1,6 @@
 var arr = ["Rahul", "Sonam", "Raj", "Sumit"];
-// it will add two new elements at the end as well return new length of array
-// var arr_length = arr.push("Dell", "HP");
+// var arr_length = arr.push("Dell", "HP"); // this add two new elements at the end as well return new length of array
+
 // console.log(arr );
 // console.log(arr_length);
 // output  [ 'Rahul', 'Sonam', 'Raj', 'Sumit', 'Dell', 'HP' ]
