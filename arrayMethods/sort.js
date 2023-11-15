@@ -25,17 +25,17 @@ console.log(points)
 
 // However, after you have sorted an array, you can use the index to obtain the highest and lowest values.
 
-// Sorting ascending:
-
-
-
-
+// Sorting ascending order:
 points.sort(function(a, b){return a - b});
+// points.sort((a, b)=> return a - b);
+
 // now points[0] contains the lowest value
 // and points[points.length-1] contains the highest value
 
-
+// Sorting  Descending order:
 points.sort(function(a, b){return b - a});
+// points.sort((a, b)=>{return b - a});
+
 // now points[0] contains the highest value
 // and points[points.length-1] contains the lowest value
 
