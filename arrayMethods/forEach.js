@@ -1,4 +1,13 @@
 // The forEach method in JavaScript is an array method used to iterate over elements in an array. It executes a provided function once for each array element, in ascending order.
+
+// Syntax  
+// array.forEach(function(currentValue, index, array) {
+//     // Your code here, using currentValue, index, and/or array
+//   }, thisArg);
+
+// array.forEach((currentValue, index, array)=> { Your code here, using currentValue, index, and/or array}, thisArg);
+  
+  
 //example 1
 // function func() {
 // const items = [12, 24, 36];
