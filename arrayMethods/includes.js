@@ -1,5 +1,6 @@
 // includes( )
 // This method checks if an array includes the element that passes the condition, returning true or false as appropriate. We can also use includes with string as well
+// Syntax array.includes(searchElement, fromIndex);
 
 const array1 = [1, 2, 3];
 
