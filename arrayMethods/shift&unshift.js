@@ -1,14 +1,17 @@
-var arr = ["Rahul", "Sonam", "Raj", "Sumit"];
+// unshift Method: The unshift method is used to add one or more elements to the beginning of an array. It modifies the original array and returns the new length of the array. 
+// Syntax: array.unshift(element1, ..., elementN);
 
-// var geek_length = arr.unshift("Dell", "HP"); // this add two new elements at the beginning as well return new length of array
+var fruits = ["banana", "orange"];
+var newLength = fruits.unshift("apple", "grape");
 
-// console.log(arr );
-// console.log(geek_length)
-// [ 'Dell', 'HP', 'Rahul', 'Sonam', 'Raj', 'Sumit' ]
-// 6
+console.log(fruits);     // Output: [ 'apple', 'grape', 'banana', 'orange' ]
+console.log(newLength);  // Output: 4
 
+// shift Method: The shift method is used to remove the first element from an array. It modifies the original array and returns the removed element.
 
-// var arr_removed = arr.shift(); // this remove element from the beginning as well return removed element
+// Syntax: array.shift();
+var colors = ["red", "blue", "green"];
+var removedColor = colors.shift();
 
-// console.log(arr,arr_removed );
-// output  [ 'Sonam', 'Raj', 'Sumit' ] Rahul
+console.log(colors);       // Output: [ 'blue', 'green' ]
+console.log(removedColor); // Output: 'red'
