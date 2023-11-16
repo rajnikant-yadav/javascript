@@ -1,12 +1,20 @@
-var arr = ["Rahul", "Sonam", "Raj", "Sumit"];
-// var arr_length = arr.push("Dell", "HP"); // this add two new elements at the end as well return new length of array
+// push Method: The push method is used to add one or more elements to the end of an array. It modifies the original array and returns the new length of the array.
+// Syntax: array.push(element1, ..., elementN);
 
-// console.log(arr );
-// console.log(arr_length);
-// output  [ 'Rahul', 'Sonam', 'Raj', 'Sumit', 'Dell', 'HP' ]
-// 6
+var fruits = ["apple", "banana", "orange"];
+var newLength = fruits.push("grape", "kiwi");
 
-var arr_poped = arr.pop();
-console.log(arr,arr_poped);
+console.log(fruits);     // Output: [ 'apple', 'banana', 'orange', 'grape', 'kiwi' ]
+console.log(newLength);  // Output: 5
 
-// output  [ 'Rahul', 'Sonam', 'Raj' ] Sumit
+// pop Method: The pop method is used to remove the last element from an array. It modifies the original array and returns the removed element.
+
+// Syntax: array.pop();
+
+var colors = ["red", "blue", "green"];
+var removedColor = colors.pop();
+
+console.log(colors);       // Output: [ 'red', 'blue' ]
+console.log(removedColor); // Output: 'green'
+
+
