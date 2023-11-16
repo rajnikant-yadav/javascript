@@ -15,4 +15,11 @@ console.log(pets.includes('cat'));
 console.log(pets.includes('at'));
 // expected output: false
 console.log(pets[0].includes('at'));
-// expected output: true
+// expected output: 
+
+// For Strings:
+// Syntax string.includes(searchString, position);
+const sentence = 'This is a sample sentence';
+
+const includesSample = sentence.includes('sample');
+console.log(includesSample); // Output: true
