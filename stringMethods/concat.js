@@ -1,5 +1,6 @@
 // JavaScript String concat()
-// concat() joins two or more strings:
+// concat() joins or add two or more strings:
+// Syntax: str.concat(string2, string3, ..., stringX)
 
 let text1 = "Hello";
 let text2 = "World";
