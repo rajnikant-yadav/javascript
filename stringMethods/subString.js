@@ -8,7 +8,7 @@ console.log(str.substring(1, 3));
 // expected output: "oz"
 
 console.log(str.substring(2));
-
+// output : zilla
 
 // const anyString = 'Mozilla';
 
