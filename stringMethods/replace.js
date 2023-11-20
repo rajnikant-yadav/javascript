@@ -1,10 +1,12 @@
 // Replacing String Content
 // The replace() method replaces a specified value with another value in a string:
 
+// Syntax : string.replace(searchValue, replaceValue)
+
 // let text = "Please visit Microsoft!";
 // let newText = text.replace("Microsoft", "W3Schools");
 // console.log(newText)
-
+// Output : Please visit W3Schools!
 
 // Note
 // The replace() method does not change the string it is called on.
