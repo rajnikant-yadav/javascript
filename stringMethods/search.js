@@ -6,11 +6,18 @@
 
 // The search() method is case sensitive.
 
+// Syntax : string.search(searchValue)
+
+
 // let text = "Mr. Blue has a blue house";
 // let position = text.search("blue");
+// console.log(position)
+// Output : 15
 
 // let text = "Mr. Blue has a blue house";
 // let position = text.search(/Blue/);
+// console.log(position)
+// Output : 4
 
 let text = "Mr. Blue has a blue house";
 let position = text.search(/blue/i);
