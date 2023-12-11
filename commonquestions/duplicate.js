@@ -1,3 +1,4 @@
+// DEFINING FUNCTION
 function findDuplicates(arr) {
     // Create a copy of the array to avoid modifying the original
     let sortedArr = arr.slice().sort();
