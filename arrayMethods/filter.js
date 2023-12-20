@@ -1,23 +1,32 @@
 // This method creates a new array with only elements that passes the condition inside the provided function.
 // array.filter(function(currentValue, index, arr), thisValue)
 
-var playersArr = [
-    {name: 'Jason', footedness: 'left', position: 'forward'},
-    {name: 'Blake', footedness: 'right', position: 'defense'},
-    {name: 'Philip', footedness: 'right', position: 'goalie'},
-    {name: 'Logan', footedness: 'left', position: 'defense'},
-    {name: 'Will', footedness: 'right', position: 'forward'}
-];
+// Example 1
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = numbers.filter(number => number % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4, 6]
+
+// Example 2
+// Filtering names that start with the letter 'A':
+
+const names = ['Alice', 'Bob', 'Charlie', 'Anna', 'Alex'];
+
+const namesStartingWithA = names.filter((name) => name.startsWith('A'));
+
+console.log(namesStartingWithA);
+// Output: ['Alice', 'Anna', 'Alex']
 
 
-// var leftFootArr = playersArr.filter(function(player){
-//     return player.footedness === 'left';
-// });
-var leftFootArr = playersArr.filter(player=> player.footedness === 'left'
-);
-console.log(leftFootArr);
-/*This will log: 
-[{name: 'Jason', footedness: 'left', position: 'forward'},
- {name: 'Logan', footedness: 'left', position: 'defense'}
+// Example 3
+const products = [
+  { name: 'Laptop', price: 1000 },
+  { name: 'Smartphone', price: 500 },
+  { name: 'Tablet', price: 300 },
+  { name: 'Desktop', price: 1200 },
 ];
- */
+
+const affordableProducts = products.filter((product) => product.price <= 1000);
+
+console.log(affordableProducts);
+// Output:
+// [{ name: 'Laptop', price: 1000 }, { name: 'Smartphone', price: 500 },{ name: 'Tablet', price: 300 }]
